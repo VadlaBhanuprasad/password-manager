@@ -1,0 +1,88 @@
+.first-letter-logo {
+  height: 50px;
+  width: 50px;
+  background-color: #10b981;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.cart {
+  border: 1px solid #c3caea;
+  width: 100%;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .cart {
+    width: 31%;
+    margin-left: 10px;
+  }
+}
+.logo {
+  font-size: 26px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+}
+.website {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+}
+.userName {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  line-height: 8px;
+}
+.star-password {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 14px;
+}
+.user-cart {
+  display: flex;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.delete-image {
+  height: 30px;
+  width: 30px;
+}
+.user-passWord-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.password-starts-image {
+  height: 24px;
+  width: 160px;
+}
+.green {
+  background-color: #10b981;
+}
+.yellow {
+  background-color: #f59e0b;
+}
+.orange {
+  background-color: #f97316;
+}
+.blue {
+  background-color: #14b8a6;
+}
+.red {
+  background-color: #b91c1c;
+}
+.light-blue {
+  background-color: #0ea5e9;
+}
